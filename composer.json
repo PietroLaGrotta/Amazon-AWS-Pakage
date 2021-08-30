@@ -1,5 +1,5 @@
 {
-    "name": "pietro@studioleaves/php-amazon-mws",
+    "name": "pietro_at_studioleaves/php-amazon-mws",
     "description": "Pakage to connect php app to Amazon MWS. Special thanks to https://github.com/CPIGroup/phpAmazonMWS",
     "require": {
         "php": ">=7.4",
