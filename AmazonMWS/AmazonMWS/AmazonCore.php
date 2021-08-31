@@ -131,13 +131,13 @@ abstract class AmazonCore{
      */
     protected function __construct($s = null, $mock = false, $m = null, $config = null){
         if (is_null($config)){
-            $config = __DIR__.'/../../amazon-config.php';
+            $config = __DIR__.'./config/amazon-config.php';
         }
         $this->setConfig($config);
         $this->setStore($s);
         $this->setMock($mock,$m);
         
-        $this->env=__DIR__.'/../../environment.php';
+        $this->env=__DIR__.'./config/environment.php';
         $this->options['SignatureVersion'] = 2;
         $this->options['SignatureMethod'] = 'HmacSHA256';
     }
